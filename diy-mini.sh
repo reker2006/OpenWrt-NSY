@@ -9,7 +9,9 @@
 # TTYD 免登录
 # sed -i 's|/bin/login|/bin/login -f root|g' feeds/packages/utils/ttyd/files/ttyd.config
 
-
+#添加qmodem模组管理
+git clone --depth=1 https://github.com/FUjr/modem_feeds package/modem_feeds
+ 
 
 # rm -rf feeds/luci/themes/luci-theme-argon
 # rm -rf feeds/luci/themes/luci-theme-design
