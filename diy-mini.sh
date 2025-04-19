@@ -11,7 +11,7 @@
 
 #添加qmodem模组管理
 git clone --depth=1 https://github.com/FUjr/modem_feeds package/modem_feeds
- 
+git clone https://github.com/Siriling/5G-Modem-Support package/luci-app-modem
 
 # rm -rf feeds/luci/themes/luci-theme-argon
 # rm -rf feeds/luci/themes/luci-theme-design
