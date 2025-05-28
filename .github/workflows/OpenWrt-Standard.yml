@@ -6,7 +6,7 @@ on:
     - cron: 0 20 * * *
 
 env:
-  REPO_URL: https://github.com/JDKCHINA/lede
+  REPO_URL: https://github.com/JDKCHINA/lede-nsy
   REPO_BRANCH: master
   CONFIG_FILE: configs/armv8-standard.config
   DIY_SCRIPT: diy-mini.sh
